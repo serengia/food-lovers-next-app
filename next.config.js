@@ -3,10 +3,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'maxschwarzmueller-nextjs-demo-users-image.s3.amazonaws.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "jamesserengia-nextjs-food-lovers-images.s3.amazonaws.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
