@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
-import classes from './meal-item.module.css';
+import classes from "./meal-item.module.css";
 
 export default function MealItem({ title, slug, image, summary, creator }) {
   return (
@@ -9,7 +9,7 @@ export default function MealItem({ title, slug, image, summary, creator }) {
       <header>
         <div className={classes.image}>
           <Image
-            src={`https://maxschwarzmueller-nextjs-demo-users-image.s3.amazonaws.com/${image}`}
+            src={`https://jamesserengia-nextjs-food-lovers-images.s3.amazonaws.com/${image}`}
             alt={title}
             fill
           />
